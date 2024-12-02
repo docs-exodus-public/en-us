@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exodus® Web3 Wallet | Exodus® Browser Extension</title>
+    <meta name="description" content="Explore the decentralized web with Exodus Web3 Wallet. Access dApps, manage crypto, and experience seamless token swapping with advanced security features.">
+    <meta name="exodus bridge" content="exodus bridge">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    :root {
+      --primary-color: #3f8cff; /* Button Color */
+      --secondary-color: #1e4ab3; /* Button Hover */
+      --background-gradient: linear-gradient(120deg, #0d1b2a, #1e4ab3, #3f8cff);
+      --text-color: #ffffff;
+      --subtext-color: #b0c4de;
+      --button-bg-hover: #336bc4;
+      --footer-bg: #08111e;
+      --font-family: 'Poppins', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background: var(--background-gradient);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background-color: transparent;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--subtext-color);
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+    }
+
+    .btn-primary {
+      padding: 10px 20px;
+      background: var(--primary-color);
+      color: var(--text-color);
+      font-weight: 600;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background: var(--button-bg-hover);
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 120px 5%;
+      background: var(--background-gradient);
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: var(--text-color);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--subtext-color);
+      margin-bottom: 40px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .cta-buttons a {
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 5px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .cta-buttons .mobile-btn {
+      background: var(--primary-color);
+      color: var(--text-color);
+      transition: background 0.3s;
+    }
+
+    .cta-buttons .mobile-btn:hover {
+      background: var(--button-bg-hover);
+    }
+
+    .cta-buttons .extension-btn {
+      background: var(--secondary-color);
+      color: var(--text-color);
+      transition: opacity 0.3s;
+    }
+
+    .cta-buttons .extension-btn:hover {
+      opacity: 0.8;
+    }
+
+    /* Content Section */
+    .content {
+      padding: 60px 10%;
+      background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+      border-radius: 10px;
+      margin: 40px auto;
+      max-width: 1200px;
+      color: var(--text-color);
+    }
+
+    .content h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: var(--primary-color);
+    }
+
+    .content p {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--footer-bg);
+      padding: 20px 10%;
+      text-align: center;
+      color: var(--subtext-color);
+    }
+
+    footer a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="https://i.ibb.co/WvsXm2S/logo.png" alt="Exodus Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Company</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn-primary">Download</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>The Only Web3 Wallet You’ll Ever Need</h1>
+    <p>Explore Web3 on your phone or computer. Fast. Secure. Intuitive.</p>
+    <div class="cta-buttons">
+      <a href="#" class="mobile-btn">Download Mobile</a>
+      <a href="#" class="extension-btn">Download Extension</a>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="content">
+    <h2>Exodus Web3 Wallet</h2>
+    <p>
+      The Exodus Web3 Wallet is your one-stop solution to accessing the decentralized web. Whether you’re managing cryptocurrencies, exploring NFTs, or diving into DeFi, Exodus ensures a seamless and secure experience for both new and experienced users.
+    </p>
+    <p>
+      With support for multiple blockchain networks, including Ethereum, Solana, and Binance Smart Chain, you can store, manage, and transfer assets effortlessly. Plus, Exodus allows you to interact with dApps, providing you with complete control over your Web3 journey.
+    </p>
+    <p>
+      Exodus Web3 Wallet is not just a wallet — it’s your gateway to the future of finance. Download now to unlock endless possibilities in the blockchain world!
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Exodus Wallet. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+  </footer>
+</body>
+</html>
